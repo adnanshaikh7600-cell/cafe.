@@ -1,0 +1,83 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #b71c1c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Menu Categories */
+section h3 {
+  margin-top: 20px;
+  color: #b71c1c;
+}
+
+/* Menu Items */
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Contact Info */
+#contact p {
+  margin: 8px 0;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 15px;
+  color: #777;
+  font-size: 0.9em;
+}
